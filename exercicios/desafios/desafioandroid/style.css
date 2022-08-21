@@ -1,0 +1,85 @@
+main{
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow:  1px 1px 10px #00000077;
+
+}
+
+body{
+
+    background-color: #8CFA97;
+    margin: auto;
+    height: max-content;
+}
+
+header{
+    
+    text-align: center;
+padding-top: 20px;
+    background-image: linear-gradient(to bottom,#24BB33,#2DAD3A,#207A29);
+    box-shadow:  1px 1px 10px #00000077;
+}
+h2{
+    color: #2DAD3A;
+    font-family: idroid;
+    background-color: #8cfa9752;
+}
+@font-face {
+    font-family: idroid;
+    src: url(fontes/IDroid.otf);
+ }
+ #mainh1{
+    color: #2DAD3A;
+    font-family: idroid;
+ }
+ h1{
+    color: antiquewhite;
+ }
+nav{
+
+    text-align: left;
+    
+   
+}
+
+nav>a{
+    color: white;
+    text-decoration: none;
+    margin-right: 1px;
+    margin-left: 7px;
+    font-size: 14px;
+}
+
+header>p{
+    color: whitesmoke;
+    font-size: 16px;
+}
+footer{
+
+    background-color: #207A29;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    
+}
+
+footer> p{
+    color: darkgray;
+    text-align: center;
+    
+}
+
+footer>p>a{
+    text-decoration: none;
+    color: white;
+}
+
+.hl{
+    color: #207A29;
+}
+
+#bug{
+    margin-left: 250px;
+}
